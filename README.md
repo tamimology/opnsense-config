@@ -87,7 +87,7 @@ _Settings_ tab
 
 _Subnets_ tab
 Click on the *+* button on the right end to add a new subnet and fill in as following:
-- *Subnet* : OPNSense IP, i.e. 192.162.1.0/24
+- *Subnet* : OPNSense IP, i.e. 192.168.1.0/24
 - *Description* : Dynamic IP Pool
 - *Pools* : specify the dynamic IP pool, i.e. _192.168.1.200 - 192.168.1.254_
 - Keep everything else as default
@@ -99,7 +99,7 @@ Once done, click on _Save_
 
 _Reservation_ tab
 Click on the *+* button on the right end to add a new static IP device in the reservation pool and fill in as following:
-- *Subnet* : it will be defaulted to the predefined subnet earlier (i.e. 192.162.1.0/24) unless you have more than one subnet, then select the needed
+- *Subnet* : it will be defaulted to the predefined subnet earlier (i.e. 192.168.1.0/24) unless you have more than one subnet, then select the needed
 - *IP address* : specify the static IP of the device, i.e. 192.168.1.76
 - *MAC address* : specify the device MAC address
 - *Hostname* : name of the device, to make it easier to recognise with many defined devices. Make sure not to use capital letters, spaces, or underscores.
